@@ -1,0 +1,32 @@
+.container{
+   display: flex;
+   gap: 14px;
+}
+
+.leftsidebar{
+    background-color: white;
+    width: 10%;
+}
+
+.rightsidebar {
+    background-color: white;
+    width: 100%;
+    margin-left: 6px;
+    border-radius: 10px;
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 1024px) {
+    .rightsidebar{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) { 
+    .rightsidebar {
+        margin-left: -5px;
+    }
+
+ }
+
+

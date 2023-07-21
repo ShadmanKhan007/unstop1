@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+.leftsidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 16px;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+}
+
+.logo{
+    font-size: 20px;
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    row-gap: 6px;
+    color: rgb(71, 66, 66);
+}
+
+.items:hover{
+    border: 1px solid blue;
+    padding: 10px;
+    background-color: rgb(218, 241, 255);
+    border-radius: 10px;
+    color: #0073E6
+}
+
+.items-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    row-gap: 6px;
+    margin-top: 32px;
+    color: rgb(71, 66, 66);
+}
+
+.items-2:hover{
+    border: 1px solid blue;
+    padding: 10px;
+    background-color: rgb(218, 241, 255);
+    border-radius: 10px;
+    color: #0073E6
+}
+
+.items-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    row-gap: 6px;
+    margin-top: 32px;
+   
+}
+
+.items-3:hover{
+    border: 1px solid  #0073E6;
+    padding: 10px;
+    background-color: rgb(218, 241, 255);
+    border-radius: 10px;
+    color: #0073E6
+}
+
+.items-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    row-gap: 12px;
+    margin-top: 42px;
+    color: rgb(71, 66, 66);
+}
+
+.items-4:hover{
+    border: 1px solid blue;
+    padding: 10px;
+    background-color: rgb(218, 241, 255);
+    border-radius: 10px;
+    color: #0073E6
+}
+
+.items-4::before {
+    content: "";
+    width: 80px;
+    height: 1px; /* Adjust the height as needed */
+    border-top: 1px dashed rgb(197, 189, 189); /* Adjust the color as needed */
+  }
+
+
+
+.items-4 >p {
+    border: 1px solid rgb(212, 72, 95);
+    border-radius: 13px;
+    padding: 2px 8px;
+    font-size: 10px;   color: rgb(212, 72, 95);
+    background-color: rgb(255, 234, 237);
+
+}
+
+.logo-4{
+    font-size: 16px;
+    border: 2px solid black;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .leftsidebar {
+        display: none;
+    }
+}
